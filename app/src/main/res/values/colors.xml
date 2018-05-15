@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sandybrown">#F4A460</color> <!--沙褐色 -->
+    <color name="khaki">#F0E68C</color> <!--黄褐色 -->
+    <color name="darksalmon">#E9967A</color> <!--暗肉色 -->
+    <color name="gainsboro">#DCDCDC</color> <!--淡灰色 -->
+    <color name="lightgray">#D3D3D3</color> <!--亮灰色 -->
+    <color name="thistle">#D8BFD8</color> <!--蓟色 -->
+    <color name="darkgray">#A9A9A9</color> <!--暗灰色 -->
+    <color name="white">#FFFFFF</color> <!--白色 -->
+    <drawable name="clr_normal">#ff6501</drawable>
+    <drawable name="clr_pressed">#29a400</drawable>
+    <color name="azure">#17abe3</color> <!--天蓝色 -->
+    <color name="lightblue">#43b5df</color> <!--亮蓝色 -->
+    <color name="black">#515151</color> <!--黑色 -->
+    <color name="grey">#BFBFBF</color>
+    <color name="sheetBackground">#FFF</color>
+    <color name="text">#3a3232</color>
+    <color name="whiteone">#dbdbdb</color>
+    <color name="lightgrey">#e6e6e6</color>
+</resources>

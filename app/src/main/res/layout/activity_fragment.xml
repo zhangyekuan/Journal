@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageButton
+            android:id="@+id/home_ImageButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/change_color_selector"
+            android:src="@drawable/homepage"/>
+        <ImageButton
+            android:id="@+id/picture_ImageButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/change_color_selector"
+            android:src="@drawable/picture"
+            />
+        <ImageButton
+            android:id="@+id/plus_ImageButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/change_color_selector"
+            android:src="@drawable/plus"
+            />
+        <ImageButton
+            android:id="@+id/location_ImageButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/change_color_selector"
+            android:src="@drawable/location"
+            />
+        <ImageButton
+            android:id="@+id/calender_ImageButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/change_color_selector"
+            android:src="@drawable/calender"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:clickable="true"
+    android:paddingBottom="1dp">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:textSize="12sp"
+        android:id="@+id/year_month_TextView"
+        android:background="@color/lightgrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/photo_ImageView"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="55"
+            android:layout_height="wrap_content">
+    <TextView
+        style="@style/JournalText"
+        android:id="@+id/Journal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journal Title"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/journal_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journal Text"
+        android:maxLines="2"/>
+            <TextView
+                android:id="@+id/location_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5sp"/>
+        </LinearLayout>
+        <TextView
+            android:gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/day_TextView"
+            android:layout_weight="15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#d9dee4"
+        android:src="@drawable/delete"/>
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#d9dee4"
+        android:src="@drawable/share"/>
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

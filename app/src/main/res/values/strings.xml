@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DayOneJournal</string>
+    <string name="journal_title_hint">Enter a title</string>
+    <string name="journal_text_hint"></string>
+    <color name="lavenderblush">#FFF0F5</color> <!--淡紫红 -->
+    <color name="orange">#FFA500</color> <!--橙色 -->
+    <color name="darkgrey">#A9A9A9</color> <!--暗灰色 -->
+    <string name="date_picker_title">Date of crime:</string>
+</resources>
