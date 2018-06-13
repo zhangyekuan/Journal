@@ -41,9 +41,9 @@ public class JournalLocationFragment extends Fragment {
     private TextView positionView;
     private MapView mMapView;
     private BaiduMap mBaiduMap;
-    private Journal mJournal;
+    //private Journal mJournal;
     private boolean isFirstLocate = true;
-    private static UUID sUUID;
+    //private static UUID sUUID;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
